@@ -12,13 +12,43 @@
     <link rel="manifest" href="./manifest.json">
 
     <link rel="stylesheet" type="text/css" href="css/main.css">
-
+    <link  rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script defer async src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer async src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script defer async src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
 </head>
 
 <body>
 
-<h1 class="header">Build something awesome here</h1>
+
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+        <header class="masthead mb-auto">
+          <div class="inner">
+            <h3 class="masthead-brand">Cover</h3>
+            <nav class="nav nav-masthead justify-content-center">
+              <a class="nav-link active" href="#">Home</a>
+              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">Contact</a>
+            </nav>
+          </div>
+        </header>
+  
+        <main role="main" class="inner cover">
+          <h1 class="cover-heading">Cover your page.</h1>
+          <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+          <p class="lead">
+            <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
+          </p>
+        </main>
+  
+        <footer class="mastfoot mt-auto">
+          <div class="inner">
+            <p>Cover template for .</p>
+          </div>
+        </footer>
+      </div>
+
 
 </body>
 
@@ -27,7 +57,7 @@
 <script type="text/javascript">
     if('serviceWorker' in navigator) {
         navigator.serviceWorker
-            .register( window.location.href + 'service-worker.js')
+            .register( window.location.href + 'sw.js')
             .then(function() { 
                 console.log("Service Worker Registered"); 
         });

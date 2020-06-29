@@ -26,6 +26,7 @@ import { routes } from './router/index'
 
 const router = new VueRouter({
     routes,
+    base: '/notorious/',
     mode: 'history'
 })
 

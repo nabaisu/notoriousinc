@@ -22,9 +22,9 @@
                 <div class="row aling-items-center">
                     <div class="col-md-12">
                         <div class="horizontal-list text-center">
-                            <ul>
-                                <li> © {{ new Date().getFullYear() }} The Notorious Inc. All Rights Reserved</li>
-                                <li><a href="tel:+351916712298" class="hover-style-link hover-style-link--sub-color">(+351) 916 712 298</a></li>
+                            <ul >
+                                <li class="text-white"> © {{ new Date().getFullYear() }} The Notorious Inc. All Rights Reserved</li>
+                                <li><a href="tel:+351916712298" class="hover-style-link hover-style-link--sub-color text-white">(+351) 916 712 298</a></li>
                             </ul>
                         </div>
                     </div>

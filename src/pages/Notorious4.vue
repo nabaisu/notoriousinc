@@ -28,7 +28,7 @@
     <CarouselStartup />
 
     <!-- team 2 -->
-    <div class="team-member-wrapper section-space--ptb_120 black-bg">
+    <div class="team-member-wrapper section-space--ptb_120 " style="background:#5D5D5D">
       <div class="container">
         <TeamTwo />
       </div>
@@ -38,7 +38,7 @@
     <ContactForm />
 
     <!-- footer section -->
-    <div class="team-member-wrapper section-space--pt_60 black-bg">
+    <div class="team-member-wrapper section-space--pt_60 " style="background:#5D5D5D">
       <div class="container">
         <FooterBottom />
       </div>

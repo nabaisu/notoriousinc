@@ -5,13 +5,13 @@
     }
     & .team-info {
         & .name {
-            color: #333;
+            color: $black;
             line-height: 1.5;
             margin-bottom: 12px;
         }
         & .position {
             font-size: 14px;
-            color: #6d70a6;
+            color: $black;
         }
         & .social-networks {
             opacity: 0;
@@ -21,7 +21,7 @@
             &  a {
                 display: inline-block;
                 font-size: 18px;
-                color: #696969;
+                color: $black;
                 margin: 14px;
             }
         }
@@ -34,7 +34,7 @@
         }
     }
     &--inner {
-        background: #fff;
+        background: $gray;
         padding: 30px;
         text-align: center;
         border-radius: 5px;

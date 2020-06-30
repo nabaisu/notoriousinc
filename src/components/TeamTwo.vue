@@ -2,8 +2,11 @@
     <div class="row">
         <div class="col-lg-12">
             <div class="section-title text-center section-space--mb_60">
-                <h2 class="font-weight--light text-white mb-15 wow move-up">Notorious Team</h2>
-                <span class="section-text text-white wow move-up">Our team joins years of experience of partnership success.</span>
+
+
+                
+                <h2 class="font-weight--bold mb-15 wow move-up" style="color:#3a3a3a">Notorious Team</h2>
+                <span class="section-text wow move-up" style="color:#3a3a3a">Our team joins years of experience of partnership success.</span>
             </div>
         </div>
         <div class="col-lg-12">

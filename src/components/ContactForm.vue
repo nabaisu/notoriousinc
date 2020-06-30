@@ -25,7 +25,7 @@
                                     <textarea name="con_message" placeholder="Message *"></textarea>
                                 </div>
                                 <div class="contact-submit-btn">
-                                    <button class="ht-btn ht-btn-md" type="submit">Send message</button>
+                                    <button class="ht-btn ht-btn-md text-white" type="submit">Send message</button>
                                     <p class="form-messege"></p>
                                 </div>
                             </div>

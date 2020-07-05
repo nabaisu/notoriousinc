@@ -8,7 +8,7 @@
               <div class="row">
 
                   <div class="payment-hero__text " style="max-width:100vw">
-                    <h1 class="text-black mt-3">The most glamorous and exclusive delights of life...</h1>
+                    <h1 class="mt-3" style="color:black;"><i>The most glamorous and exclusive delights of life...</i></h1>
                     <div style="height:10vh"></div>
                   </div>
 

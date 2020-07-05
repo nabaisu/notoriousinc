@@ -1,16 +1,6 @@
 <template>
-    <div class="product-showcase-product-view-wrapper section-space--pt_120" id="product">
-        <div class="container-fluid container-fluid--cp-120">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title-wrapper text-center section-space--mb_60">
-                        <h3 class="font-weight--light text-black mb-10 wow move-up">Product Overview</h3>
-                        <div class="sub-text wow move-up">
-                            A super-high 13000 mAh capacity with two high-speed USB ports that is smaller than a wallet
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div class="product-showcase-product-view-wrapper section-space--pb_120" id="product">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12">
                     <!-- gallery-warp Start -->
@@ -18,12 +8,12 @@
                         <div class="popup-images gallery-grid-4">
                             <!-- single gallery Start -->
                             <silentbox-single 
-                                :src="require('../../assets/img/product/product-showcase-gallery-01.jpg')"
+                                :src="require('../../assets/img/notorious/notorious-event-1.jpg')"
                                 class="single-gallery grid-width-2 grid-height-2"
                             >
                                 <div class="single-gallery__item">
                                     <div class="single-gallery__thum">
-                                        <img class="img-fluid" src="../../assets/img/product/product-showcase-gallery-01.jpg" />
+                                        <img class="img-fluid" src="../../assets/img/notorious/notorious-event-1.jpg" />
                                     </div>
                                     <div class="ht-overlay"></div>
                                     <div class="overlay-icon">
@@ -35,12 +25,12 @@
 
                             <!-- single gallery Start -->
                             <silentbox-single 
-                                :src="require('../../assets/img/product/product-showcase-gallery-02.jpg')"
+                                :src="require('../../assets/img/notorious/notorious-event-2.jpg')"
                                 class="single-gallery"
                             >
                                 <div class="single-gallery__item">
                                     <div class="single-gallery__thum">
-                                        <img class="img-fluid" src="../../assets/img/product/product-showcase-gallery-02.jpg" />
+                                        <img class="img-fluid" src="../../assets/img/notorious/notorious-event-2.jpg" />
                                     </div>
                                     <div class="ht-overlay"></div>
                                     <div class="overlay-icon">
@@ -52,12 +42,12 @@
 
                             <!-- single gallery Start -->
                             <silentbox-single 
-                                :src="require('../../assets/img/product/product-showcase-gallery-03.jpg')"
+                                :src="require('../../assets/img/notorious/notorious-event-3.jpg')"
                                 class="single-gallery"
                             >
                                 <div class="single-gallery__item">
                                     <div class="single-gallery__thum">
-                                        <img class="img-fluid" src="../../assets/img/product/product-showcase-gallery-03.jpg" />
+                                        <img class="img-fluid" src="../../assets/img/notorious/notorious-event-3.jpg" />
                                     </div>
                                     <div class="ht-overlay"></div>
                                     <div class="overlay-icon">
@@ -69,12 +59,12 @@
 
                             <!-- single gallery Start -->
                             <silentbox-single 
-                                :src="require('../../assets/img/product/product-showcase-gallery-04.jpg')"
+                                :src="require('../../assets/img/notorious/notorious-event-4.jpg')"
                                 class="single-gallery"
                             >
                                 <div class="single-gallery__item">
                                     <div class="single-gallery__thum">
-                                        <img class="img-fluid" src="../../assets/img/product/product-showcase-gallery-04.jpg" />
+                                        <img class="img-fluid" src="../../assets/img/notorious/notorious-event-4.jpg" />
                                     </div>
                                     <div class="ht-overlay"></div>
                                     <div class="overlay-icon">
@@ -86,12 +76,12 @@
 
                             <!-- single gallery Start -->
                             <silentbox-single 
-                                :src="require('../../assets/img/product/product-showcase-gallery-05.jpg')"
+                                :src="require('../../assets/img/notorious/notorious-event-5.jpg')"
                                 class="single-gallery"
                             >
                                 <div class="single-gallery__item">
                                     <div class="single-gallery__thum">
-                                        <img class="img-fluid" src="../../assets/img/product/product-showcase-gallery-05.jpg" />
+                                        <img class="img-fluid" src="../../assets/img/notorious/notorious-event-5.jpg" />
                                     </div>
                                     <div class="ht-overlay"></div>
                                     <div class="overlay-icon">

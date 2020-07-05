@@ -2,7 +2,6 @@
   <div class="main-container">
     <!-- Navbar section -->
     <!--<HeaderPayment /> -->
-    
 
     <!-- hero section -->
     <HeroPayment />
@@ -12,33 +11,43 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <Gradation />
+            <div class="section-title text-white text-center section-space--mb_60">
+              <h2 class="font-weight--bold mb-15 wow move-up text-white">Our mission:</h2>
+              <p
+                class="text-center wow move-up lead"
+              >Notorious Inc is a lifestyle marketing project that aims to connect people and companies, in casual and mutually beneficial relationships. Companies offer access to unique and exclusive events, from trips, to dinner parties and other adventures, that are often limited to a restricted group of people, allowing members of the Notorious Inc community (Notorees) to have amazing high-value experiences and enjoy life, at the same time that content is created to dynamize both the brand and the Notorees’ social network.</p>
+            </div>
           </div>
+              <!-- brand carousel -->
+    <CarouselStartup />
         </div>
       </div>
     </div>
     <!-- gradation component end -->
 
+
     <!-- payment feature section -->
     <div class="section-space--pt_60" style="background:#5D5D5D">
+      <TeamAgency />
       <PaymentFeatureSection />
     </div>
 
-    <!-- brand carousel -->
-    <CarouselStartup />
 
-    <!-- team 2 -->
-    <div class="team-member-wrapper section-space--ptb_120 " style="background:#5D5D5D">
+
+    <!-- team 2   
+    <div class="team-member-wrapper section-space--ptb_120" style="background:#5D5D5D">
       <div class="container">
         <TeamTwo />
       </div>
     </div>
+    -->
+
 
     <!-- newsletter section -->
     <ContactForm />
 
     <!-- footer section -->
-    <div class="team-member-wrapper section-space--pt_60 " style="background:#5D5D5D">
+    <div class="team-member-wrapper section-space--pt_60" style="background:#5D5D5D">
       <div class="container">
         <FooterBottom />
       </div>
@@ -47,32 +56,22 @@
 </template>
 
 <script>
-import HeaderPayment from "@/components/sections/HeaderPayment";
 import HeroPayment from "@/components/sections/HeroPayment";
 import PaymentFeatureSection from "@/components/sections/PaymentFeatureSection";
-import PaymentStep from "@/components/sections/PaymentStep";
-import PaymentPricingWrapper from "@/components/sections/PaymentPricingWrapper";
-import PaymentNewsletter from "@/components/sections/PaymentNewsletter";
 import CarouselStartup from "@/components/CarouselStartup";
 import FooterBottom from "@/components/FooterBottom";
-import Gradation from "@/components/Gradation";
-import ContactForm from "../components/ContactForm";
-import TeamTwo from "../components/TeamTwo";
+import ContactForm from "@/components/ContactForm";
+import TeamAgency from "@/components/sections/TeamAgency";
 
 export default {
   name: "app",
   components: {
-    HeaderPayment,
     HeroPayment,
     PaymentFeatureSection,
-    PaymentStep,
-    PaymentPricingWrapper,
-    PaymentNewsletter,
     CarouselStartup,
     FooterBottom,
-    Gradation,
-    TeamTwo,
-    ContactForm
+    ContactForm,
+    TeamAgency
   }
 };
 </script>

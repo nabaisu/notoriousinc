@@ -26,27 +26,27 @@
                     {
                         icon: 'fa fa-map text-black',
                          heading:'Traveling', 
-                        text:'Get to know beautiful islands in the Middle of the Atlantic'
+                        text:'Get to know different countries, fly to paradisiacal islands and enrich yourself by being in contact with different environments and cultures.'
                     },
                     {
                         icon:'fa fa-anchor text-black', 
                         heading:'Incredible Experiences', 
-                        text:'Such as surf classes and sailing tours.'
+                        text:'From skiing in virgin snow, sailing and surfing in crystalline waters, to spiritual nature-based retreats.'
                     },
                     {
                         icon: 'fa fa-camera text-black', 
                         heading:'Multimedia Content', 
-                        text:'A new portfolio by our own experienced photographer, as well as videos and photos from all attended events.'
+                        text:'Get access to high-quality content to dynamize your social network produced by our team of professional photographers, content producers and marketeers, as you enjoy these exclusive experiences.'
                     },
                     {
                         icon:'fa fa-graduation-cap text-black', 
                         heading:'Specific Education', 
-                        text:'Introductory course to personal branding and communication, as well as Introductory course to personal branding and communication'
+                        text:'Some Notorees by showing great potential can even be offered courses in personal branding and communication and even get the chance to become a part of our full-time influencers team.'
                     },
                     {
                         icon: 'fa fa-home text-black', 
                         heading:'Discounts in partner stores', 
-                        text:'Where you can profit from the unique range of products.'
+                        text:'Notorees have access to discounts in partner stores where they can profit from a unique range of products.'
                     },
                     {
                         icon: 'fa fa-star text-black', 

@@ -84,8 +84,8 @@ export default {
             } else
             if(request.readyState == 4) {
                 vm.onError(request.response);
+                this.disabledButton = false;
             }
-            this.disabledButton = false;
         };
 
         var subject = "new submission by:"+this.name

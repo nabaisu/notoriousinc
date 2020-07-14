@@ -1,6 +1,6 @@
 <template>
     <div class="row">
-        <div v-for="item in items" :key="item.id" class="col-lg-6 col-md-12 mb-25 wow move-up">
+        <div v-for="item in items" :key="item.id" class="col-lg-6 col-md-12 mb-25 ">
             <div class="ht-service-box--three" style="background: ">
                 <div class="service-box-wrap">
                     <div class="image__media">

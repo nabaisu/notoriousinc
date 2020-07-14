@@ -5,8 +5,8 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="section-title text-center section-space--mb_60">
-                            <h2 class="font-weight--bold mb-15 wow move-up">Notorious Offered Opportunities</h2>
-                            <span class="section-text wow move-up">Our influencers will have the following benefits:</span>
+                            <h2 class="font-weight--bold mb-15 ">Notorious Offered Opportunities</h2>
+                            <span class="section-text ">Our influencers will have the following benefits:</span>
                         </div>
                     </div>
                 </div>

@@ -3,126 +3,98 @@
     class="brand-logo-slider-area bg-black section-space--pt_100 section-space--pb_60 startup-carousel"
   >
     <div class="container">
-      <!-- 
-            <div class="row">
-                <div class="col-12">
-                    <div class="section-title text-center section-space--mb_30">
-                        <h2 class="font-weight--bold mb-15 wow move-up same-height">Notorious Partners</h2>
-                        <span class="section-text wow move-up same-height">We are happy to have these good and trustful parterns with us</span>
-                    </div>
-                </div>
-            </div>
-      -->
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title text-center section-space--mb_30">
+            <!-- <h2 class="font-weight--bold mb-15 same-height">Notorious Partners</h2> -->
+            <span class="section-text text-center">Some former projects of our members</span>
+          </div>
+        </div>
+      </div>
+
       <div class="row">
         <div class="col-12">
           <div class="brand-logo-slider__container-area">
             <div class="swiper-container brand-logo-slider__container">
               <div class="swiper-wrapper brand-logo-slider__wrapper gray-logo">
                 <swiper :options="swiperOption">
-                  <div class="swiper-slide">
-                    <div class="brand-logo mb-0 wow move-up same-height">
-                      <img
-                        src="../assets/img/notorious/notorious-partner-1.png"
-                        class="img-fluid"
-                        alt="brand logo"
-                      />
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="brand-logo mb-0 wow move-up same-height">
-                      <img
-                        src="../assets/img/notorious/notorious-partner-3.png"
-                        class="img-fluid vertical-center"
-                        alt="brand logo"
-                      />
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="brand-logo mb-0 wow move-up same-height">
+                  <div class="swiper-slide swiper-slide-logo">
+                    <div class="brand-logo mb-0 same-height">
                       <img
                         src="../assets/img/notorious/ibm-logo.png"
-                        class="img-fluid vertical-center"
+                        class="img-fuild img-teste"
                         alt="brand logo"
                       />
                     </div>
                   </div>
-                  <div class="swiper-slide">
-                    <div class="brand-logo mb-0 wow move-up same-height">
+                  <div class="swiper-slide swiper-slide-logo">
+                    <div class="brand-logo mb-0 same-height">
                       <img
                         src="../assets/img/notorious/deloitte-logo.png"
-                        class="img-fluid vertical-center"
+                        class="img-fuild img-teste"
                         alt="brand logo"
                       />
                     </div>
                   </div>
                   <div class="swiper-slide">
-                    <div class="brand-logo mb-0 wow move-up same-height">
+                    <div class="brand-logo mb-0 same-height">
                       <img
                         src="../assets/img/notorious/edp-logo.png"
-                        class="img-fluid vertical-center"
+                        class="img-fuild img-teste"
                         alt="brand logo"
                       />
                     </div>
                   </div>
-                  <div class="swiper-slide">
-                    <div class="brand-logo mb-0 wow move-up same-height">
+                  <div class="swiper-slide swiper-slide-logo">
+                    <div class="brand-logo mb-0 same-height">
                       <img
                         src="../assets/img/notorious/client__logo-apiax.svg"
-                        class="img-fluid vertical-center"
+                        class="img-fuild img-teste"
                         alt="brand logo"
                       />
                     </div>
                   </div>
-                  <div class="swiper-slide">
-                    <div class="brand-logo mb-0 wow move-up same-height">
+                  <div class="swiper-slide swiper-slide-logo">
+                    <div class="brand-logo mb-0 same-height">
                       <img
                         src="../assets/img/notorious/kpmg-logo.png"
-                        class="img-fluid vertical-center"
+                        class="img-fuild img-teste"
                         alt="brand logo"
                       />
                     </div>
                   </div>
-                  <div class="swiper-slide">
-                    <div class="brand-logomb-0 wow move-up same-height">
-                      <img
-                        src="../assets/img/notorious/notorious-partner-2.png"
-                        class="img-fluid vertical-center"
-                        alt="brand logo"
-                      />
-                    </div>
-                  </div>
-                  <div class="swiper-slide">
-                    <div class="brand-logo mb-0 wow move-up same-height">
+                  <div class="swiper-slide swiper-slide-logo">
+                    <div class="brand-logo mb-0 same-height">
                       <img
                         src="../assets/img/notorious/lidl-logo.png"
-                        class="img-fluid vertical-center"
+                        class="img-fuild img-teste"
                         alt="brand logo"
                       />
                     </div>
                   </div>
-                  <div class="swiper-slide">
-                    <div class="brand-logo mb-0 wow move-up same-height">
+                  <div class="swiper-slide swiper-slide-logo">
+                    <div class="brand-logo mb-0 same-height">
                       <img
                         src="../assets/img/notorious/mckinsey-logo.png"
-                        class="img-fluid vertical-center"
+                        class="img-fuild img-teste"
                         alt="brand logo"
                       />
                     </div>
                   </div>
-                  <div class="swiper-slide">
-                    <div class="brand-logo mb-0 wow move-up same-height">
+                  <div class="swiper-slide swiper-slide-logo">
+                    <div class="brand-logo mb-0 same-height">
                       <img
                         src="../assets/img/notorious/pwc-logo.png"
-                        class="img-fluid vertical-center"
+                        class="img-fuild img-teste"
                         alt="brand logo"
                       />
                     </div>
                   </div>
-                  <div class="swiper-slide">
-                    <div class="brand-logo mb-0 wow move-up same-height">
+                  <div class="swiper-slide swiper-slide-logo">
+                    <div class="brand-logo mb-0 same-height">
                       <img
                         src="../assets/img/notorious/client__logo-alix-partners.svg"
-                        class="img-fluid vertical-center"
+                        class="img-fuild img-teste"
                         alt="brand logo"
                       />
                     </div>
@@ -170,8 +142,21 @@ export default {
 .gray-logo {
   filter: grayscale(100%);
 }
-.vertical-center {
+.swiper-slide-logo {
+  height: 10rem;
+}
+
+.center-verr {
+  align-items: center;
+}
+
+.img-teste {
+  max-width: 100%;
   max-height: 100%;
+}
+
+.vertical-center {
+  max-height: 10rem;
   max-width: 100%;
   position: absolute;
   top: 0;
@@ -182,5 +167,7 @@ export default {
 }
 .same-height {
   height: inherit;
+  display: flex;
+  align-items: center;
 }
 </style>

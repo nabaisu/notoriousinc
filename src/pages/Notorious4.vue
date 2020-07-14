@@ -12,12 +12,13 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="section-title text-white text-center section-space--mb_60">
-              <h2 class="font-weight--bold mb-15 wow move-up text-white">Our mission:</h2>
+              <h2 class="font-weight--bold mb-15 text-white">Our mission:</h2>
               <p
-                class="text-center wow move-up lead"
+                class="text-center lead"
               >Notorious Inc is a lifestyle marketing project that aims to connect people and companies, in casual and mutually beneficial relationships. Companies offer access to unique and exclusive events, from trips, to dinner parties and other adventures, that are often limited to a restricted group of people, allowing members of the Notorious Inc community (Notorees) to have amazing high-value experiences and enjoy life, at the same time that content is created to dynamize both the brand and the Notorees’ social network.</p>
             </div>
           </div>
+
               <!-- brand carousel -->
     <CarouselStartup />
         </div>

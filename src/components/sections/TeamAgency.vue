@@ -4,7 +4,7 @@
             <div class="digital-agency-section-title-area section-space--mb_60">
             </div>
             <div class="row">
-                <div class="col-lg-12 wow move-up">
+                <div class="col-lg-12 ">
                     <div class="flexible-image-slider-wrap grey-image">
                         <div class="swiper-container auto--per-flexible__container__aegency">
                             <div class="swiper-wrapper auto-plexible-row">
@@ -76,6 +76,6 @@
 
 <style>
 .grey-image{
-    filter: grayscale(100%);
+    filter: grayscale(0%);
 }
 </style>
